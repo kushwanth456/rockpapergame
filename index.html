@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> rock papper sciser</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>start the game</h1>
+    <button onclick="
+    
+   computerMove();
+   playermove('rock');
+    " class="img1"><img src="rock-emoji.png" alt=""></button>
+
+
+    <button onclick="
+    
+    computerMove();
+    playermove('papper');
+    " class="img2"><img src="papper-emoji.png" alt=""></button>
+
+
+    <button onclick="
+    computerMove();
+    playermove('sciser');
+   
+
+
+    " class="img3"><img src="sciser-emoji.png" alt=""></button>
+    <p class="whowon"></p>
+    <p class="result1"></p>
+
+    <p class="js-result"></p>
+    <button onclick="
+    score.loose = 0
+    score.ties = 0
+    score.wins = 0
+    localStorage.removeItem('score')
+    selement();
+    ">reset</button>
+    <h1></h1>
+    <script src="index.js"> </script>
+</body>
+
+</html>

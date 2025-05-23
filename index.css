@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 100px;
+    height: 80px;
+    padding-right: 10px;
+    background: transparent;
+}
+.img1{
+    background: transparent;
+    border-color: aliceblue;
+    border-width: 2px;
+    cursor: pointer;
+}
+.img2{
+    background: transparent;
+    border-color: aliceblue;
+    border-width: 2px;
+    cursor: pointer;
+}
+.img3{
+    background: transparent;
+    border-color: aliceblue;
+    border-width: 2px;
+    cursor: pointer;
+}
+.whowon{
+    font-size: 40px;
+}
